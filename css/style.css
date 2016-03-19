@@ -38,10 +38,12 @@ h6{font-size:18px;}
 #wrapper{
 position:relative;
 overflow:hidden;
-min-width:1184px;
 }
 .container{
-width:1170px !important;
+
+}
+.menu_trigger{
+	display: none;
 }
 .collapse{
 display:block;
