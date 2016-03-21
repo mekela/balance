@@ -215,12 +215,6 @@ position:relative;
 		font-size:40px;
 		}
 		.list_of_services{
-		-moz-column-count: 5;
-		-moz-column-gap: 30px;
-		-webkit-column-count: 5;
-		-webkit-column-gap: 30px;
-		column-count: 5;
-		column-gap: 30px;
 		list-style-type:none;
 		text-align:left;
 		vertical-align:top;
@@ -232,6 +226,8 @@ position:relative;
 			background:url(../img/arrow_list.gif) no-repeat center left;
 			margin-bottom:23px;
 			vertical-align:top;
+			display: inline-block;
+			width: 33%;
 			}
 				.list_of_services li a{
 				display:block;
